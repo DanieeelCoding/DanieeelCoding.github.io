@@ -123,7 +123,9 @@ $(document).ready(() => {
             scrollTop: $($main).offset().top ,
         }, 600);
 
-        $('.main-section').remove();
+        setTimeout(function(){
+            $('.main-section').remove();
+        },1000);
     },4000);
 })
 </script>
